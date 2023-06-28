@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styleform.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>Bienvendido!!!</h2>
+        <hr color="black" size="2">
+        <center>
+        <div id="hijo">
+            <form>
+                <h1>Formulario de Registro</h1>
+                
+                <h3>Datos Personales</h3>
+                <label for="nombre"> Nombre: </label><br/>
+                <input type="text" id="nombre" name="nombre" placeholder="escribe tu Nombre" required="true" /><br/>             
+                
+                <label for="apellido"> Apellido: </label><br/>
+                <input type="text" id="apellido" name="apellido" placeholder="escribe tu Apellido" required="true" /><br/>
+
+                Fecha Nacimiento: <br>
+                <input type="date" ><br>
+
+                Genero: <br>
+                <input type="radio" name="tamaño"> Hombre <input type="radio" name="tamaño">Mujer <input type="radio" name="tamaño"> Prefiero no Responder <br>
+                
+                <label for="mail"> Email: </label><br/>
+                <input type="email" id="mail" name="mail" /> <br/>
+
+                Numero Telefonico: <br>
+                <input type="number" maxlength="8" required="true" ><br>
+
+                Direccion: <br>
+                <input type="text"  maxlength="20" required="true"><br>
+
+                Codigo Postal: <br>
+                <input type="number" min="0" max="20" value="0000"><br>
+
+                Pais: <br>
+                <select name="" id="">
+                    <option value="">Bolivia</option>
+                    <option value="">Panamá</option>
+                    <option value="">Costa Rica</option>
+                    <option value="">Ecuador</option>
+                    <option value="">Chile</option>
+                    <option value="">Brazil</option>
+                    <option value="">Honduras</option>
+                </select><br>
+                <br>
+                Ingresar Foto Tamaño Carnet: <br>
+                <input type="file"><br>
+                
+                <label for="comentario" > Agrega un comentario: </label><br/>
+                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escribe aqui tu comentario"></textarea>
+                
+                <br>
+
+                <input type="submit" value="Enviar"/><br/>
+            
+             </form>    
+              
+        </div>
+        <a href="../index.html"><h2>Volver!!!</h2></a>
+    </center>
+    </div>
+</body>
+</html>
